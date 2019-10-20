@@ -16,7 +16,7 @@ The brief of model-2 (Stacked CNN)-not contained in repository:
 
 
 
-# Part Two: A comprehensive utils package for EEG Signals preprocessing.
+# Part Two: A Toolkit package for EEG Signals preprocessing.
 List and brief description:
 1, EEG_Preprocessor.py: A python file where the code for a series of EEG Signals preprocessing procedure is included. 
    Including: load_data, extract_eegdata, extract_feature, etc.
