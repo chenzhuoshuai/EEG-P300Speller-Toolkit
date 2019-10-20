@@ -9,6 +9,8 @@ The brief of the model-1 (Stacked CNN & RNN):
 2, A GRU is repsonsible for temporal domain feature extraction.
 3, Dropout is introduced to prevent overfitting and to improve the accuracy. 
 
+![Stacked RNN and CNN Model](/images/Model.png)
+
 The brief of model-2 (Stacked CNN)-not contained in repository:
 1, A CNN is responsbile for spatial domain feature extraction.
 2, A CNN is repsonsible for temporal domain feature extraction.
