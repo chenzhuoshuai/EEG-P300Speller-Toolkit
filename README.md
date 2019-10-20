@@ -17,6 +17,8 @@ The brief of model-2 (Stacked CNN)-not contained in repository:
 3, Dropout is introduced to prevent overfitting and to improve the accuracy. 
 
 
+![The Perfromance of Several Models](/images/Model_Identification.png)
+
 
 # Part Two: A Toolkit package for EEG Signals preprocessing.
 List and brief description:
