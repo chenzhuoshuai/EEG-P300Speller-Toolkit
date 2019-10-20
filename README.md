@@ -26,6 +26,7 @@ List and brief description:
    Including: load_data, extract_eegdata, extract_feature, etc.
    
    Operations before classification: 
+       
        1) band-pass butter-6 filter to remove the noises irrelevant to classification;          
        2) using sliding averaging window to downsample signal data;
        
