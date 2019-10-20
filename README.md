@@ -1,7 +1,7 @@
 # EEG-P300Speller_Model-util
 This repository contains 3 part.
 
-# Part One: EEG Signal Preprocessing with Deep Learning Model (CNN and RNN)-Keras
+# Part One: EEG Signal Classificatrion with Deep Learning Model (Stacked CNN and RNN)-Keras
 P300_CNN_1_GRU_A.py: A Python File in which is the model of a combination of CNN and GRU to determine if the EEG signal sequence contains P300 wave.
 
 The brief of the model-1 (Stacked CNN & RNN): 
