@@ -24,9 +24,10 @@ The brief of model-2 (Stacked CNN)-not contained in repository:
 List and brief description:
 1, EEG_Preprocessor.py: A python file where the code for a series of EEG Signals preprocessing procedure is included. 
    Including: load_data, extract_eegdata, extract_feature, etc.
-   the operation before classification: 
-       band-pass butter-6 filter to remove the noises irrelevant to classification;          
-       using sliding averaging window to downsample signal data;
+   
+   Operations before classification: 
+       1) band-pass butter-6 filter to remove the noises irrelevant to classification;          
+       2) using sliding averaging window to downsample signal data;
        
   (the file below please see in the common folder)     
 2, classifier.py: A python file where the code for several simple classifiers for P300 classification is included.
