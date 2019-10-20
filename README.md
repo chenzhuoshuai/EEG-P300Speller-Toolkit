@@ -2,14 +2,14 @@
 This repository contains 3 part.
 
 # Part One: EEG Signal Preprocessing with Deep Learning Model (CNN and RNN)-Keras
-A Python File in which is the model of a combination of CNN and GRU to determine if the EEG signal sequence contains P300 wave.
+P300_CNN_1_GRU_A.py: A Python File in which is the model of a combination of CNN and GRU to determine if the EEG signal sequence contains P300 wave.
 
 The brief of the model-1 (Stacked CNN & RNN): 
 1, A CNN is responsbile for spatial domain feature extraction.
 2, A GRU is repsonsible for temporal domain feature extraction.
 3, Dropout is introduced to prevent overfitting and to improve the accuracy. 
 
-The brief of model-2 (Stacked CNN):
+The brief of model-2 (Stacked CNN)-not contained in repository:
 1, A CNN is responsbile for spatial domain feature extraction.
 2, A CNN is repsonsible for temporal domain feature extraction.
 3, Dropout is introduced to prevent overfitting and to improve the accuracy. 
@@ -24,6 +24,7 @@ List and brief description:
        band-pass butter-6 filter to remove the noises irrelevant to classification;          
        using sliding averaging window to downsample signal data;
        
+  (the file below please see in the common folder)     
 2, classifier.py: A python file where the code for several simple classifiers for P300 classification is included.
    Including: 
    1) Fisher's Linear Discirminant Analysis;
@@ -49,6 +50,7 @@ List and brief description:
  8, utils.py: includes several machine learning gears.
  
  # Part Three: A Bagging Ensemble SVM to classify EEG Signals
+ (the file below please see in the Part Three folder)     
  It is all written in Matlab.
  Consult the main.m file for the code logics.
  
